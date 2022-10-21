@@ -1,0 +1,32 @@
+.header{
+    width: 5rem;
+    height: 100%;
+
+    .hamborgir{
+        width: 5rem;
+        padding: 1rem;
+        height: 5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        div{
+            height: 0.2rem;
+            background-color: black;
+            border-radius: 10rem;
+        }
+    }
+
+    .menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        gap: 3rem;
+
+        p{
+            writing-mode: vertical-lr;
+        }
+    }
+}

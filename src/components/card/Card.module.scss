@@ -1,0 +1,52 @@
+.card{
+    width: 100%;
+    height: calc(100% - 30px);
+    background-image: url("../../assets/sandImg.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    padding: 2rem;
+    margin: auto 10px;
+
+    .upper{
+        
+        .smallText{
+            font-size: 0.8rem;
+        }
+        
+        h1{
+            margin: 2rem 0;
+        }
+
+        .infoText{
+            line-height: 2;
+            font-size: 0.8rem;
+        }
+    }
+
+    .middle{
+        margin: 4rem 0;
+        display: flex;
+        justify-content: space-between;
+
+        button{
+            background-color: #fff;
+            padding: 0.5rem 2rem;
+            color: #111;
+            text-transform: none;
+        }
+
+        svg{
+            height: 3rem;
+            width: 3rem;
+        }
+    }
+
+    .bottom{
+        text-align: right;
+        h2{
+            font-size: 4rem;
+        }
+    }
+}

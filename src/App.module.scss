@@ -1,0 +1,20 @@
+.App {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #E6E6E6;
+}
+
+.container{
+  background-color: #fff;
+  height: 90vh;
+  width: 90%;
+
+  .wrapper{
+    height: 92.5%;
+    width: 100%;
+    display: flex;  
+  }
+}

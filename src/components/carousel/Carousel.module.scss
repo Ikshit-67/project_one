@@ -1,0 +1,12 @@
+.carousel{
+    width: calc(90vw - 5rem);
+    height: 100%;
+    overflow-x: scroll;
+
+    .carousel_wrap{
+        height: 100%;
+        width: calc(120vw + 80px);
+        display: flex;
+        // overflow-x: scroll;
+    }
+}
