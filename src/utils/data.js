@@ -4,7 +4,6 @@ import snow from "../assets/snowImg4.jpeg"
 import woods from "../assets/woodsImg4.jpeg"
 import mountains from "../assets/mountainsImg3.jpeg"
 
-
 export const data = [
     {
         smallText:"Mariana Trench",
