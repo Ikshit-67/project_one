@@ -10,7 +10,7 @@ const Carousel = () => {
       <div className={Styles.carousel_wrap}>
       {data.map((e, i) =>{
         return(
-          <Card key = {i} index = {i} info = {e} margin_top = {i % 2 === 0 ? true : false}/>
+          <Card key = {i} index = {i} info = {e}/>
         );
       })}
       </div>

@@ -3,9 +3,9 @@ import Styles from "./Card.module.scss"
 import { Icon } from '@iconify/react';
 import { Button } from '@mui/material';
 
-const Card = ({margin_top, info, index}) => {
+const Card = ({info, index}) => {
   return (
-    <div className={Styles.card} style={{marginTop:margin_top?"20px":"", marginBottom:margin_top?"":"20px"}}>
+    <div className={Styles.card}>
       <div className={Styles.img_wrapper}>
         <img src={info.img_url} alt="lol"/>
       </div>
