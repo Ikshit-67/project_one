@@ -1,6 +1,6 @@
 import React from 'react'
 import Styles from "./Header.module.scss"
-
+import { Button } from '@mui/material';
 
 const Header = () => {
   return (
@@ -11,9 +11,9 @@ const Header = () => {
         <div></div>
       </div>
       <div className={Styles.menu}>
-        <p>Home</p>
-        <p>About</p>
-        <p>Contact</p>
+        <Button>Home</Button>
+        <Button>About</Button>
+        <Button>Contact</Button>
       </div>
     </div>
   )

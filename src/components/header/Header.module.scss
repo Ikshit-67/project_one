@@ -4,15 +4,15 @@
 
     .hamborgir{
         width: 5rem;
-        padding: 1rem;
+        padding: 1.2rem;
         height: 5rem;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
 
         div{
-            height: 0.2rem;
-            background-color: black;
+            height: 0.3rem;
+            background-color: rgb(59, 59, 59);
             border-radius: 10rem;
         }
     }
@@ -25,9 +25,11 @@
         height: 100%;
         gap: 3rem;
 
-        p{
+        button{
             writing-mode: vertical-lr;
-            font-size: 1.2rem;
+            font-size: 1rem;
+            background-color: white;
+            color: rgb(59, 59, 59);
         }
     }
 }

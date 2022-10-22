@@ -1,19 +1,16 @@
-import sand from "../assets/sandImg.jpeg"
-import sea from "../assets/seaImg.jpeg"
-import snow from "../assets/snowImg.jpeg"
-import woods from "../assets/woodsImg.jpeg"
-import mountains from "../assets/mountainsImg.jpeg"
-
-// export const images = [sand, sea, snow, woods, mountains]
-
+import reef from "../assets/reefImg2.jpeg"
+import sea from "../assets/seaImg6.jpeg"
+import snow from "../assets/snowImg4.jpeg"
+import woods from "../assets/woodsImg4.jpeg"
+import mountains from "../assets/mountainsImg3.jpeg"
 
 
 export const data = [
     {
-        smallText:"Sahara",
-        mainText:"Sand",
+        smallText:"Mariana Trench",
+        mainText:"Underwater",
         infoText:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti aut, libero dolores at in lahore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti aut, libero dolores at in lahore.",
-        img_url: sand
+        img_url: reef
     },
     {
         smallText:"Atlantic",
@@ -28,13 +25,13 @@ export const data = [
         img_url:snow
     },
     {
-        smallText:"Everest",
+        smallText:"Jasper",
         mainText:"Mountains",
         infoText:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti aut, libero dolores at in lahore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti aut, libero dolores at in lahore.",
         img_url:mountains
     },
     {
-        smallText:"Sunderban",
+        smallText:"Amazon",
         mainText:"Woods",
         infoText:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti aut, libero dolores at in lahore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti aut, libero dolores at in lahore.",
         img_url:woods
